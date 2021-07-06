@@ -1,8 +1,11 @@
-import { LandingPage } from "layout";
+import { LandingPage, About } from "layout";
 
 const Home = () => {
   return (
-    <LandingPage />
+    <>
+      <LandingPage />
+      <About />
+    </>
   );
 };
 

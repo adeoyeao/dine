@@ -27,7 +27,8 @@ export const H1 = styled.h1<TextProps>`
 
 export const H2 = styled.h2<TextProps>`
   ${sharedStyles}
-  font-size: ${({ theme }) => theme.fontSizes.medium}
+  font-size: ${({ theme }) => theme.fontSizes.medium};
+  font-weight: 900;
   @media screen and (min-width: 768px) {
     font-size: ${({ theme }) => theme.fontSizes.large};
   }
