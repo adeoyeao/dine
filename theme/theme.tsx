@@ -8,9 +8,9 @@ const theme = {
       white: '#FFFFFF',
     },
     fontSizes: {
-      extraLarge: '4rem',
-      large: '3rem',
-      medium: '2rem',
+      extraLarge: '3rem',
+      large: '2.25rem',
+      medium: '1.5rem',
       small: '1rem',
       extraSmall: '0.75rem',
     }

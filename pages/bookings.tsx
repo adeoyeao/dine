@@ -1,9 +1,9 @@
 import { LandingPage } from "layout";
 
-const Home = () => {
+const Bookings = () => {
   return (
     <LandingPage />
   );
 };
 
-export default Home;
+export default Bookings;

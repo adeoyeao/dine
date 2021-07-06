@@ -2,15 +2,19 @@ import styled, {css} from 'styled-components';
 
 export type TextProps = {
   textType: 'h1' | 'h2' | 'h3' | 'h4' | 'p';
-  align: 'left' | 'center' | 'right';
   color: string;
   text: string;
 };
 
 const sharedStyles = (props: TextProps) => css`
     text-decoration: none !important;
-    text-align: ${props.align};
+    text-align: center;
     color: ${props.color};
+    font-weight: 100;
+
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
 `;
 
 export const H1 = styled.h1<TextProps>`
