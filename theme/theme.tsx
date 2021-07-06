@@ -5,6 +5,7 @@ const theme = {
       mirage: '#17192B',
       ebony: '#242B37',
       shuttle: '#5C6779',
+      white: '#FFFFFF',
     },
     fontSizes: {
       extraLarge: '4rem',

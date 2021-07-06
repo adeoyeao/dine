@@ -1,18 +1,18 @@
-import { createGlobalStyle } from "styled-components";
-
-export const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-`;
+import { Text, Button } from '../components'
 
 const BasicLayout = ({ children }: { children: any }) => {
   return (
     <>
-      <GlobalStyle />
-      {children}
+      <Button
+        buttonType='dark'
+        text='submit'
+        isActive
+      />
+      <Button
+        buttonType='light'
+        text='submit'
+        isActive
+      />
     </>
   );
 };

@@ -1,23 +1,20 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import theme from '../theme'
 
-
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Manrope, Verdana;
+    font-family: Spartan, sans-serif;
     line-height: 150%;
     ::-webkit-scrollbar {
       display: none;
     }
-  }
-  button {
-    appearance: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  };
+  body {
+    background: teal;
   }
 `
 
