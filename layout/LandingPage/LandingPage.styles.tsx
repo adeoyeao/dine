@@ -21,10 +21,11 @@ export const StyledSection = styled.section`
     }
 
     @media screen and (min-width: 1200px) {
+        padding: 10rem 10vw;
         background: url('/images/homepage/hero-bg-desktop@2x.jpg');
         background-size: cover;
         background-position: center;
-
+        justify-content: start;
         align-items: start;
 
         p {

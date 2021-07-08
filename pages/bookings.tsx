@@ -1,8 +1,8 @@
-import { LandingPage } from "layout";
+import { Booking } from "layout";
 
 const Bookings = () => {
   return (
-    <LandingPage />
+    <Booking />
   );
 };
 

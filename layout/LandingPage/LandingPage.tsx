@@ -2,7 +2,7 @@ import React, { ReactElement, useState, useEffect } from "react";
 import { useRouter } from 'next/router'
 
 import { StyledSection } from "./LandingPage.styles";
-import { Logo, Text, Button } from "components";
+import { Logo, Text, Button, Wrapper } from "components";
 import theme from "theme";
 import { bookTable } from 'utils'
 
