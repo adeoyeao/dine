@@ -11,6 +11,7 @@ const sharedStyles = (props: TextProps) => css`
     text-align: center;
     color: ${props.color};
     font-weight: 100;
+    letter-spacing: 1.5px;
 
     @media screen and (min-width: 1200px) {
       text-align: left;
@@ -35,7 +36,8 @@ export const H2 = styled.h2<TextProps>`
 `;
 
 export const H3 = styled.h3<TextProps>`
-  ${sharedStyles}
+  ${sharedStyles};
+  font-weight: 900;
   font-size: ${({ theme }) => theme.fontSizes.medium}
 `;
 

@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Spartan;
+    font-family: Spartan, Roboto, sans-serif;
     line-height: 150%;
     ::-webkit-scrollbar {
       display: none;
