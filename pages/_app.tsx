@@ -1,6 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import theme from "../theme";
 import { HtmlHead } from "components";
+import { Footer } from 'layout'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -22,6 +23,7 @@ const App = ({ Component, pageProps }) => {
       <ThemeProvider theme={theme}>
         <HtmlHead />
         <Component {...pageProps}></Component>
+        <Footer />
       </ThemeProvider>
     </>
   );
