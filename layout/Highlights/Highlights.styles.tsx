@@ -4,6 +4,10 @@ const StyledSection = styled.section`
     padding: 3rem 10vw;
     background: ${({theme}) => theme.colors.cod};
 
+    @media screen and (min-width: 768px) {
+        padding: 3rem 10vw 6rem 10vw;
+    }
+
     @media screen and (min-width: 1200px) {
         padding: 8rem 10vw 3rem 10vw;
         display: grid;

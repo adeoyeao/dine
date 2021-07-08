@@ -22,6 +22,12 @@ export const MenuTextWrapper = styled.div`
     display: flex;
     flex-direction: column;
     grid-gap: 0.5rem;
+
+    @media screen and (min-width: 768px) {
+        h3, p {
+            text-align: left !important;
+        }
+    }
 `
 
 export const StyledMenuItem = styled.div`

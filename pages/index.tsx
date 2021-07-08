@@ -1,4 +1,4 @@
-import { LandingPage, About, Highlights, Events } from "layout";
+import { LandingPage, About, Highlights, Events, Reservation } from "layout";
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <About />
       <Highlights />
       <Events />
+      <Reservation />
     </>
   );
 };
