@@ -30,6 +30,7 @@ export const H2 = styled.h2<TextProps>`
   ${sharedStyles}
   font-size: ${({ theme }) => theme.fontSizes.medium};
   font-weight: 900;
+  text-transform: capitalize;
   @media screen and (min-width: 768px) {
     font-size: ${({ theme }) => theme.fontSizes.large};
   }

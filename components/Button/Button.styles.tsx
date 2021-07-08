@@ -15,6 +15,7 @@ const sharedStyles = (props: ButtonProps) => css`
   border: none;
   outline: none;
   cursor: pointer;
+  width: 16rem;
 
   text-transform: uppercase;
   letter-spacing: 2px;
