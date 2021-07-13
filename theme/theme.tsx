@@ -6,6 +6,7 @@ const theme = {
       ebony: '#242B37',
       shuttle: '#5C6779',
       white: '#FFFFFF',
+      red: '#B54949'
     },
     fontSizes: {
       extraLarge: '3rem',

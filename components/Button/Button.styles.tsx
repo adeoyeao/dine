@@ -4,7 +4,7 @@ export type ButtonProps = {
   buttonType: "light" | "dark";
   text: string;
   isActive: boolean;
-  onClick: () => void;
+  onClick: (e?) => void;
 };
 
 const sharedStyles = (props: ButtonProps) => css`

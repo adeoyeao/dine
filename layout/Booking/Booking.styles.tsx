@@ -25,10 +25,9 @@ const StyledSection = styled.section`
         background-size: 100% 60%, 100%, 10%;
         background-position: top, -25vw bottom, center 85vh;
         background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: start;
-        p {
-            width: 40%;
-        }
     }
 `
 

@@ -1,6 +1,6 @@
 import StyledSection from "./Booking.styles";
 import { useRouter } from "next/router";
-import { Logo, Text, Button, Wrapper } from "components";
+import { Logo, Text, Button, Wrapper, Form } from "components";
 import theme from "theme";
 
 const Booking = () => {
@@ -9,7 +9,7 @@ const Booking = () => {
 
   return (
     <StyledSection>
-        <>
+        <Wrapper>
         <Logo logoSize="small" />
         <Text textType="h1" color={theme.colors.white} text="Reservations" />
         <Text
@@ -23,7 +23,8 @@ const Booking = () => {
           text="Go Back"
           onClick={handleClick}
         />
-        </>
+        </Wrapper>
+        <Form />
     </StyledSection>
   );
 };
